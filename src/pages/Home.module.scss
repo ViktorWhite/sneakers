@@ -1,0 +1,28 @@
+.scroll{
+  width: 1055px;
+  height: 668px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-top: 6px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  margin-left: -15px;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #DEE9FF;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-button:vertical:start:decrement,
+  &::-webkit-scrollbar-button:vertical:end:increment,
+  &::-webkit-scrollbar-button:horizontal:start:decrement,
+  &::-webkit-scrollbar-button:horizontal:end:increment {
+    background-color: transparent
+  }
+}
